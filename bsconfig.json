@@ -1,0 +1,24 @@
+{
+	"name": "@aws-sdk-re/client-amplify-node",
+	"sources": [
+		{
+			"dir": "src",
+			"subdirs": true
+		},
+		{
+			"dir": "__tests__",
+			"type": "dev"
+		}
+	],
+	"package-specs": {
+		"module": "commonjs",
+		"in-source": true
+	},
+	"suffix": ".bs.js",
+	"bs-dependencies": [],
+	"warnings": {
+		"error": "+101"
+	},
+	"namespace": true,
+	"refmt": 3
+}

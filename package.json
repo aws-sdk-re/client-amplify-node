@@ -1,0 +1,40 @@
+{
+	"name": "@aws-sdk-re/client-amplify-node",
+	"version": "0.0.5",
+	"publishConfig": {
+		"access": "public"
+	},
+	"description": "BuckleScript bindings for https://www.npmjs.com/package/@aws-sdk/client-amplify-node",
+	"main": "index.js",
+	"keywords": [
+		"BuckleScript",
+		"aws-sdk",
+		"reason",
+		"reasonml",
+		"client-amplify-node"
+	],
+	"scripts": {
+		"build": "npm run clean && bsb -make-world",
+		"watch": "npm run clean && bsb -make-world -w",
+		"clean": "rm -rf lib && bsb -clean-world"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/aws-sdk-re/client-amplify-node.git"
+	},
+	"author": "Alain Armand",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/aws-sdk-re/client-amplify-node/issues"
+	},
+	"homepage": "https://github.com/aws-sdk-re/client-amplify-node#readme",
+	"peerDependencies": {
+		"bs-platform": "^5.2.0"
+	},
+	"devDependencies": {
+		"bs-platform": "^5.2.0"
+	},
+	"dependencies": {
+		"@aws-sdk/client-amplify-node": "0.1.0-preview.2"
+	}
+}
